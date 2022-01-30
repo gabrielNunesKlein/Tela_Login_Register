@@ -12,6 +12,68 @@
     <title>Register</title>
 </head>
 <body>
-    
+    <div class="container col-11 col-md-9" id="form-container">
+        <div class="row gx-5">
+            <div class="col-md-6">
+                <h2>Realize seu cadastro</h2>
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="text" name="name" id="name" class="form-control" 
+                            placeholder="Digite seu nome">
+                        <label for="name">Digite seu nome</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" name="lastName" id="lastName" class="form-control" 
+                            placeholder="Digite seu sobre nome">
+                        <label for="lastName">Digite seu sobre nome</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="email" name="email" id="email" class="form-control" 
+                            placeholder="Digite seu email">
+                        <label for="email">Digite seu email</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="password" name="password" id="password" class="form-control" 
+                            placeholder="Digite seu password">
+                        <label for="password">Digite sua senha</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="password" name="confirmPassword" id="confirmPassword" class="form-control" 
+                            placeholder="Confirme sua senha">
+                        <label for="confirmPassword">Confirme sua senha</label>
+                    </div>
+                    
+                    <div class="col-mb-3">
+                        <div class="form-check mb-2">
+                            <input type="checkbox" name="agree-form" id="agree-form" class="form-check-input">
+                            <label for="agree-form" class="form-check-label">
+                                Você aceita os <a href="#">termos de serviço</a> ?
+                            </label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input type="checkbox" name="agree-form" id="agree-form" class="form-check-input" checked>
+                            <label for="agree-form" class="form-check-label">
+                                Deseja receber as nossas Newslester
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <img src="img/hello.svg" alt="Tela de Cadastro" class="img-fluid">
+                    </div>
+                    <div class="col-12" id="link-container">
+                        <a href="Login.html">Já tenho uma conta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
